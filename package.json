@@ -20,6 +20,7 @@
     "url": "https://github.com/hxfdarling/clipboard-watcher/issues"
   },
   "dependencies": {
-    "NodObjC": "*"
+    "NodObjC": "*",
+    "ffi": "^2.1.0"
   }
 }
