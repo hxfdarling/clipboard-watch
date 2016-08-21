@@ -1,5 +1,5 @@
 {
-  "name": "clipboard-watcher",
+  "name": "clipboard-watch",
   "version": "0.0.1",
   "description": "Listen to clipboard change (OSX only)",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hxfdarling/clipboard-watcher.git"
+    "url": "git://github.com/hxfdarling/clipboard-watch.git"
   },
   "keywords": [
     "clipboard",
@@ -17,7 +17,7 @@
   "author": "z man",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hxfdarling/clipboard-watcher/issues"
+    "url": "https://github.com/hxfdarling/clipboard-watch/issues"
   },
   "dependencies": {
     "NodObjC": "*",
