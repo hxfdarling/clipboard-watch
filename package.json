@@ -1,7 +1,7 @@
 {
   "name": "clipboard-watch",
-  "version": "0.0.1",
-  "description": "Listen to clipboard change (OSX only)",
+  "version": "1.0.0",
+  "description": "Listen to clipboard change ,support osx and windows",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "clipboard",
+    "windows",
+    "watcher",
+    "monitor",
     "osx"
   ],
   "author": "z man",
