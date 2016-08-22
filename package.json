@@ -23,7 +23,7 @@
     "url": "https://github.com/hxfdarling/clipboard-watch/issues"
   },
   "dependencies": {
-    "NodObjC": "*",
+    "nodobjc": "^2.1.0",
     "ffi": "^2.1.0"
   }
 }
