@@ -1,6 +1,6 @@
 # clipboard-watch
 
-1.support windows,mac
+1.support windows,osx
 
 2.High-performance
 
