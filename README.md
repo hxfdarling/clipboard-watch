@@ -4,6 +4,8 @@
 
 2.High-performance
 
+2.support nwjs,electron
+
 # install
     
     npm install clipboard-watch --save
