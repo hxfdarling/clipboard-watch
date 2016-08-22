@@ -9,7 +9,8 @@ if (require('os').arch() == 'x64') {
 }
 
 var lib = ffi.Library(dll, {
-	watcher: ['void', [funPtr, 'int']]
+	watcher: ['void', [funPtr, 'int']],
+	unwatcher: ['void', []]
 });
 var callback;
 var proc = ffi.Callback('void', ['int'], function(count) {
@@ -17,7 +18,12 @@ var proc = ffi.Callback('void', ['int'], function(count) {
 		callback(count);
 	}
 })
-module.exports = function(cb) {
-	callback = cb;
-	lib.watcher(proc, 10);
-};
+module.exports = {
+	watcher: function(cb) {
+		callback = cb;
+		lib.watcher(proc, 10);
+	},
+	unwatcher: function() {
+		lib.unwatcher();
+	}
+}

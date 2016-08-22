@@ -5,4 +5,4 @@ if (process.platform === 'darwin') {
 } else {
 	watcher = require('./src/win.js');
 }
-exports.watcher = watcher;
+module.exports = watcher;
