@@ -1,6 +1,8 @@
 # clipboard-watch
 
-support windows,mac
+1.support windows,mac
+
+2.High-performance
 
 # install
     
